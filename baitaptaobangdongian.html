@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Tạo bảng đơn giản</title>
+    <style type="text/css">
+        body{
+            padding: 70px;
+        }
+        table{
+            width: 100%;
+        }
+        #b {
+            float: right;
+            width: 20%;
+            color: #1127ff;
+        }
+        #a {
+            float: left;
+            width: 80%;
+            color: #1127ff;
+        }
+        #c th{
+            background-color: #ff8b0e;
+        }
+        table tr th{
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+        table, th, td{
+            border: 1px #000 solid;
+            border-collapse: collapse;
+            text-align: center;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+        tr th {
+            text-align: center;
+            background-color: #FEFB00;
+            border: 1px #000 solid;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: #1127ff; text-align: center">THỜI KHOÁ BIỂU</h1>
+    <div id="a"><p>Lớp: T0908I</p>
+        <p>Giáo viên: KhoaNV</p>
+        <p>Phòng học: Class3/Lab3</p></div>
+    <div id="b"><p>Thời gian học: 13h30 - 17h30</p>
+        <p>Ngày học: Thứ 3,5,7</p></div>
+<table>
+    <tr>
+        <th colspan="3" style="background-color: #FFFFFF"></th>
+        <th>Thứ 3</th>
+        <th>Thứ 5</th>
+        <th>Thứ 7</th>
+    </tr>
+    <tr id="c">
+        <th>Tuần</th>
+        <th>Ngày bắt đầu</th>
+        <th>Ngày kết thúc</th>
+        <th colspan="3">Môn học</th>
+    </tr>
+    <tr>
+        <td>01</td>
+        <td>01/09/2009</td>
+        <td>05/09/2009</td>
+        <td>CF - T1,L1</td>
+        <td>CF - T2,L2</td>
+        <td>CF - T3,L3</td>
+    </tr>
+    <tr>
+        <td>02</td>
+        <td>08/09/2009</td>
+        <td>12/09/2009</td>
+        <td>CF - T4,L4</td>
+        <td>CF - Written Test</td>
+        <td>C - T1,L1</td>
+    </tr>
+    <tr>
+        <td>03</td>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+    </tr>
+</table>
+</body>
+</html>
